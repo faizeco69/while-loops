@@ -1,0 +1,12 @@
+T =(1,4,9,16,25,36,49,64,81,100)
+t= int(input("enter your num  : "))
+i=0
+while i<len(T):
+  if T[i]==t:
+    print("yes found at index ",i )
+    break
+  else:
+    i+=1 
+if i==len(T):
+  print("sorry your num is not in the tuple")
+  
